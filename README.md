@@ -4,7 +4,7 @@ Assalamualaikum semuanya, ini salah satu project copyright saya dari bang [Dea A
 
 Kalau begitu, yuk ikutin bagaimana cara membuatnya :
 
-# Cara instalasi
+# Cara Menjalankan 
 - pertama, kalian harus menginstall dulu `Node.js, MySql, XAMPP` di komputer atau laptop kalian
   - 🎯 Node.js = (https://nodejs.org/en/download)
   - 🎯 MySql = (https://www.mysql.com/downloads/)
@@ -43,10 +43,10 @@ const mysql = require("mysql");
 
 const app = express();
 
-const db = muysql.createConnection({
+const db = mysql.createConnection({
   host: "localhost",
-  database: "(nama db kalian)"
-  user: "root"
+  database: "(nama db kalian)",
+  user: "root",
   password: "" 
 })
 
@@ -92,4 +92,6 @@ Link ini ditaro di file index.ejs
 
 
 ## Connection
+mari kita saling koneksi :)
+
 
